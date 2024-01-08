@@ -51,8 +51,8 @@ struct CardView: View{
             .pickerStyle(.wheel)
             .frame(width: 300, height: 200)
             .background(.clear )
-            .clipShape(RoundedRectangle(cornerRadius: 100))
-            .shadow(radius: 30)
+         //   .clipShape(RoundedRectangle(cornerRadius: 100))
+         //  .shadow(radius: 30)
             
         }
     }
