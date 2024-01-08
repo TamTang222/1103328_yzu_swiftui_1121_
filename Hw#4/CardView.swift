@@ -27,7 +27,7 @@ struct CardView: View{
                         .foregroundColor(.black)
                         .kerning(3) //字距
                         .offset(x: 0, y: 20)
-                        .frame(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .frame(alignment: .center )
                     Text(myDictionary[currentCard].description)
                          .font(.system(size: 40))
                         .foregroundColor(.blue)
